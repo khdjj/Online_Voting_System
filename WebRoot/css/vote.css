@@ -1,0 +1,532 @@
+.App_Home {
+    background-image: none;
+    margin: 15px auto 20px;
+    width: 960px;
+	margin-top: 90px;
+}
+.userleft {
+    width: 216px;
+    border: 1px solid #ddd;
+    border-right: 0px;
+    background-color: #ffffff;
+    min-height: 570px;
+}
+.userleft, .iateright {
+    float: left;
+}
+.userbox {
+    margin: 10px;
+}
+.userhead {
+    border-bottom: solid 1px #e2e2e2;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.userimg {
+    overflow: hidden;
+    width: 110px;
+    height: 118px;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+.userimg img {
+    width: 100%;
+    border-radius: 60px;
+}
+.username {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.intext {
+    padding: 3px 0 3px;
+    text-align: center;
+}
+.userfred {
+    color: #ff3107;
+}
+
+.f14 {
+    font-size: 14px;
+}
+.Editor_Launch {
+    margin-top: 20px;
+    position: relative;
+}
+.EL_Html {
+    width: 241px;
+    position: absolute;
+    left: -10px;
+}
+.EL_Html .row1 {
+    background-position: left top;
+    color: #fff;
+}
+.EL_Html a {
+    height: 38px;
+    color: #333;
+    font-size: 14px;
+    line-height: 38px;
+    padding-bottom: 6px;
+    padding-left: 60px;
+    background: url(http://www.wanyan.com/images/vote/nav_bg.png) no-repeat;
+    display: block;
+}
+.EL_Html .row2 {
+    background-position: left -44px;
+}
+.iateright {
+    width: 739px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    min-height: 570px;
+}
+.sa_head {
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #F7F7F7;
+}
+.sa_head .sa_head_left {
+    width: 544px;
+    height: 106px;
+}
+.sa_head .sa_head_left, .sa_head .sa_head_right {
+    height: 105px;
+    float: left;
+}
+.cretips {
+    margin-left: 135px;
+    margin-top: 31px;
+    position: absolute;
+    width: 370px;
+}
+.cretip1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.cretip2 {
+    font-size: 14px;
+}
+.sa_head_btok {
+    background-color: #D3D3D3;
+    background-position: -155px 1px;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 6px;
+    margin-top: 32px;
+    text-align: center;
+    width: 158px;
+    cursor: pointer;
+}
+.sa_head_btok a {
+    background-color: #D3D3D3;
+    background-position: -155px 1px;
+    display: block;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+.sa_select_area, .sa_tip_area {
+    background-color: #fafafa;
+}
+.sa_select_area .sa_select_list {
+    zoom: 1;
+    width: 680px;
+    height: 122px;
+    overflow: hidden;
+    border: 1px solid #dfdfdf;
+    margin: 40px auto 0;
+}
+
+.sa_select_list .items {
+    overflow: hidden;
+    width: 190px;
+    float: left;
+    background-color: White;
+    position: relative;
+    zoom: 1;
+    padding-top: 5px;
+}
+.sa_select_list .eq1 {
+    width: 90px;
+    background-color: #f7f7f7;
+}
+.sa_select_list li {
+    text-align: center;
+    height: 100%;
+}
+.items .saseltip {
+    color: #323232;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: 6px;
+    margin-top: 39px;
+    width: 80px;
+}
+.tosearch, .gap1, .gap2, .sa_select_img_font, .sa_select_img_video, .sa_select_img, .sa_query, .keysdrag, .keysadd, .keyssub, .viitem, .selitem .seledit, .selitem .selexist, .subclose, .su_tip, .handlelist ul li .itemhandle, .su_look, .sponsor_area_box .sponsor_close, .items .saselecthover {
+    background-image: url(http://www.wanyan.com/images/vote/wybg.png);
+}
+.sa_select_list .gap1 {
+    width: 13px;
+    background-position: 0px -89px;
+}
+.items .sa_select_info {
+    height: 90px;
+    margin: 0 auto;
+    width: 110px;
+    padding-top: 20px;
+}
+.items .sa_select_img_font {
+    background-position: -18px -88px;
+}
+.items .sa_select_img_video{
+	background-position: -81px -89px;
+}
+.sa_select_img_font, .sa_select_img, .sa_select_img_video {
+    height: 60px;
+    width: 62px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.items .sa_select_img_tip {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.sa_select_list .gap2 {
+    background-position: -16px -88px;
+    width: 3px;
+}
+.items .Img_select_info {
+    height: 90px;
+    margin: 0 auto;
+    width: 110px;
+    padding-top: 20px;
+}
+.sa_select_list li {
+    text-align: center;
+    height: 100%;
+}
+.items .sa_select_img {
+    background-position: -19px -151px;
+}
+.sponsor_area_box .sponsorbox {
+    width: 310px;
+    border: 1px solid #d3d3d3;
+    margin: 20px auto;
+    box-shadow: 0px 0px 8px #A8A5A5;
+    border-radius: 4px 4px 4px 4px;
+    background-color: White;
+    /* display: none; */
+}
+.sponsor_area_box .sponsor_close {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-position: -389px 0px;
+    cursor: pointer;
+    z-index: 101px;
+    display: none;
+}
+.sponsorbox .sb_title {
+    margin: 5px;
+}
+.sponsorbox .sp_txttitle {
+    border: 1px dashed #C8C8C8;
+    outline: 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+}
+.sp_keys_area {
+    padding: 5px;
+}
+.sp_keys_area .keitems {
+    background-color: #55CC88;
+    height: 32px;
+    padding-top: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.keitems .ksystext {
+    outline: 0;
+    background-color: #AAE6C4;
+    border: 0;
+    color: #666666;
+    float: left;
+    font-size: 12px;
+    height: 26px;
+    line-height: 26px;
+    width: 220px;
+	margin-left: 21px;
+    margin-right: 4px;
+    text-align: center;
+}
+.keitems .keysadd {
+    background-position: -348px 0px;
+}
+.keitems .keysadd, .keitems .keyssub {
+    height: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 4px;
+    width: 20px;
+    cursor: pointer;
+}
+.keitems a {
+    float: left;
+}
+.keitems .keyssub {
+    background-position: -368px 0px;
+}
+.sp_keys_area .keytip {
+    color: #FF0000;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 35px;
+    display: none;
+}
+.sp_img_area {
+    padding: 10px;
+    background-color: #F0F0F0;
+}
+.sp_img_area .img_infos {
+    position: relative;
+    zoom: 1;
+}
+.sp_img_area .img_show {
+    width: 288px;
+    height: 148px;
+}
+.img_infos .img_upp {
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.sp_explain_area .sp_explain_text {
+    background: url(http://www.wanyan.com/images/app/Unified_ico9.png) no-repeat scroll left 13px #55CC88;
+    padding: 8px 34px;
+    width: 220px;
+}
+.sp_explain_area .sp_explain_text textarea {
+    background: transparent;
+    border: 1px solid #9EE2BB;
+    color: #FFFFFF;
+    font-size: 12px;
+    /* height: 18px; */
+    line-height: 16px;
+    padding: 5px;
+    width: 208px;
+}
+.sp_class_area, .sp_time_area, .sp_visual_area, .sp_dict_area, .sp_submint_area, .sp_score_area, .sp_video_area .sp_video_tip, .sp_video_area .sp_video_url {
+    width: 98.155844%;
+    margin: 0 auto 10px;
+}
+.sp_class_area .sp_class_left {
+    background: url(http://www.wanyan.com/images/app/Unified_ico11.jpg);
+    border: 1px solid #D1D1D1;
+    border-radius: 3px 3px 3px 3px;
+    display: inline;
+    float: left;
+    height: 28px;
+    margin-top: 16px;
+    width: 91px;
+    background-position: center top;
+}
+.sp_class_area .sp_class_left a {
+    color: #868686;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 45px;
+}
+.sp_class_area .sp_class_left, .sp_class_area .sp_class_left a {
+    float: left;
+}
+.sp_class_area .sp_class_right, .sp_score_calss .sp_class_right {
+    background-image: url(http://www.wanyan.com/images/app/Unified_ico12.jpg);
+    color: #868686;
+    cursor: pointer;
+    display: inline;
+    float: right;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 16px;
+    padding-left: 26px;
+    width: 60px;
+}
+.sp_time_setup {
+    height: 30px;
+}
+.sp_visual_area {
+    height: 30px;
+    position: relative;
+    z-index: 8;
+}
+
+.sp_visual_area .viselect {
+    background-position: -482px -22px;
+}
+.sp_visual_area .viitem {
+    background-position: -482px 3px;
+    background-repeat: no-repeat;
+    color: #585858;
+    float: left;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 17px;
+    margin-right: 4px;
+}
+
+.sp_time_setup {
+    height: 30px;
+}
+.sp_time_setup .setup_rowtxt {
+    background-image: url(http://www.wanyan.com/images/app/Unified_ico13.jpg);
+    float: left;
+    height: 24px;
+    position: relative;
+    zoom: 1;
+    width: 97px;
+    z-index: 10;
+    line-height: 24px;
+}
+.sp_time_setup .setup_rowtxt .sp_fied_time {
+    color: #868686;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 11px;
+}
+.sponsor_area_box p {
+    margin: 0px;
+    padding: 0px;
+}
+.sp_time_setup .sp_time_tip, .sp_visual_area .sp_time_tip, .sp_dict_area .sp_time_tip, .sp_score_area .sp_time_tip {
+    color: #868686;
+    float: left;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    width: 62px;
+}
+.sp_dict_area .sp_dict_tip {
+    color: #A3A3A3;
+    float: right;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 5px;
+    width: 78.96774193548387%;
+}
+.sp_submint_area {
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.sp_submint_area .sp_complate {
+    /* height: 28px; */
+    border: solid 1px #ddd;
+    border-radius: 3px;
+    color: #999;
+    font-size: 14px;
+    line-height: 28px;
+    width: 80px;
+    text-align: center;
+    background: #fff;
+    margin-top: 10px;
+}
+.tipone, .tiptwo, .tipthree, .tipfour, .tipfive, .tip_type {
+    position: absolute;
+    /* display: none; */
+}
+
+label{
+	font-size: 12px;
+	color: #585858;
+}
+.mui-checkbox{
+	float: left;
+}
+
+.tyle_floating_layer {
+    width: 510px;
+    height: 222px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    position: fixed;
+    z-index: 100001;
+}
+.tyle_floating_layer .A {
+    padding: 8px 30px 8px 105px;
+    background: url(http://www.wanyan.com/webapp/css/publish/img/x16.png) no-repeat 19px 15px;
+    border-bottom: 1px solid #fff;
+}
+.clearfix {
+    zoom: 1;
+}
+.tyle_floating_layer .B {
+    padding: 8px 30px 8px 105px;
+    background: url(http://www.wanyan.com/webapp/css/publish/img/x17.png) no-repeat 19px 15px;
+    border-bottom: 1px solid #fff;
+}
+.tyle_floating_layer a {
+    float: left;
+    color: #666;
+    margin: 5px 3px 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 20px;
+    white-space: nowrap;
+	font-size: 12px;
+}
+.tyle_floating_layer .C {
+    padding: 8px 30px 8px 105px;
+    background: url(http://www.wanyan.com/webapp/css/publish/img/x18.png) no-repeat 19px 15px;
+}
+.tyle_floating_layer .close_tyle {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.show_upload_img{
+	position: relative;
+}
+.upload_file{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   cursor: pointer;
+   z-index:999;
+}
+.alert{
+	display:none;
+	position:absolute;
+	top:30%;
+	left:40%;
+	color:white;
+	padding:10px;
+	z-index:999999;
+	background-color:black;
+	border-radius:10px;
+}

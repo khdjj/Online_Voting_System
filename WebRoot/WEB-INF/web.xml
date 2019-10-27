@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name></display-name>
+
+
+<!-- 	<filter>
+	<filter-name>IndexFiler</filter-name>
+	<filter-class>filter.IndexFilter</filter-class>
+</filter>
+	<filter-mapping>
+		<filter-name>IndexFiler</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> -->
+	
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>registerServlet.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ValidateCodeServlet</servlet-name>
+		<servlet-class>registerServlet.ValidateCodeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserNameServlet</servlet-name>
+		<servlet-class>registerServlet.UserNameServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>loginServlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UploadImgServlet</servlet-name>
+		<servlet-class>uploadServlet.UploadImgServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>VoteFontServlet</servlet-name>
+		<servlet-class>vote.VoteFontServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetVoteFontServlet</servlet-name>
+		<servlet-class>vote.GetVoteFontServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VoteFontActionServlet</servlet-name>
+    <servlet-class>vote.VoteFontActionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VoteServlet</servlet-name>
+    <servlet-class>vote.VoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VoteImgServlet</servlet-name>
+    <servlet-class>vote.VoteImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>vote.CommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReplyServelt</servlet-name>
+    <servlet-class>vote.ReplyServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCommentServlet</servlet-name>
+    <servlet-class>vote.GetCommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserMsgServlet</servlet-name>
+    <servlet-class>user.GetUserMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetDataAnaServlet</servlet-name>
+    <servlet-class>user.GetDataAnaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllowModifyServlet</servlet-name>
+    <servlet-class>user.AllowModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteVoteServlet</servlet-name>
+    <servlet-class>user.DeleteVoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>user.SearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserServlet</servlet-name>
+    <servlet-class>user.GetUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditUserServlet</servlet-name>
+    <servlet-class>user.EditUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BehindSearchServlet</servlet-name>
+    <servlet-class>user.BehindSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PowerServlet</servlet-name>
+    <servlet-class>vote.PowerServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ValidateCodeServlet</servlet-name>
+		<url-pattern>/validate_code</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserNameServlet</servlet-name>
+		<url-pattern>/v1_user_isRepeat</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/v1_user_login</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UploadImgServlet</servlet-name>
+		<url-pattern>/img_upload</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>VoteFontServlet</servlet-name>
+		<url-pattern>/vote_votefont</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetVoteFontServlet</servlet-name>
+		<url-pattern>/vote_getVoteFont</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VoteFontActionServlet</servlet-name>
+    <url-pattern>/vote_getVoteAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VoteServlet</servlet-name>
+    <url-pattern>/vote_action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VoteImgServlet</servlet-name>
+    <url-pattern>/vote_vote_img</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/report_comment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplyServelt</servlet-name>
+    <url-pattern>/report_reply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCommentServlet</servlet-name>
+    <url-pattern>/comment_get</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserMsgServlet</servlet-name>
+    <url-pattern>/v1_user</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDataAnaServlet</servlet-name>
+    <url-pattern>/get_data</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllowModifyServlet</servlet-name>
+    <url-pattern>/vote_isModify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteVoteServlet</servlet-name>
+    <url-pattern>/vote_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/vote_search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserServlet</servlet-name>
+    <url-pattern>/user_getUserData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditUserServlet</servlet-name>
+    <url-pattern>/user_edit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BehindSearchServlet</servlet-name>
+    <url-pattern>/user_search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PowerServlet</servlet-name>
+    <url-pattern>/vote_power</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

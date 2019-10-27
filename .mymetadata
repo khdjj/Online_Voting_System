@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Online_Voting_System_20164206122"
+  id="myeclipse.1561768848473"
+  context-root="/Online_Voting_System_20164206122"
+  j2ee-spec="5.0"
+  archive="Online_Voting_System_20164206122.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

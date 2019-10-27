@@ -1,0 +1,551 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button, textarea, p, blockquote, th, td, form {
+    margin: 0;
+    padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.Navigation_Control {
+    width: 100%;
+    height: 136px;
+    background-color: #fff;
+}
+
+.Navigation_Middle {
+    width: 1240px;
+    height: 136px;
+    margin: 0 auto;
+}
+.Navigation_Middle .Nav_Img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    padding: 3px;
+    border: solid 1px #eee;
+    margin-top: 20px;
+    margin-left: 45px;
+    display: inline;
+}
+.Navigation_Middle .Nav_Img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+fieldset, img {
+    border: none;
+}
+.Navigation_Middle .Nav_Name {
+    float: left;
+    width: 160px;
+    height: 100px;
+    padding-top: 36px;
+    margin-left: 28px;
+    display: inline;
+}
+.Navigation_Middle .Nav_Name span {
+    line-height: 30px;
+    color: #333;
+    font-size: 18px;
+    display: block;
+}
+.Navigation_Middle .Nav_Name .v1 {
+    color: #666;
+    background: url(http://www.wanyan.com/webapp/css/myvote/img/content/V1.gif) no-repeat left center;
+}
+.Navigation_Middle .Nav_Name a {
+    line-height: 30px;
+    padding-left: 18px;
+    display: block;
+}
+.Navigation_Middle .Nav_href {
+    float: left;
+    height: 136px;
+}
+.Navigation_Middle .Nav_href .hover {
+    background-color: #f7f7f7;
+    color: #f30;
+}
+.Navigation_Middle .Nav_href a {
+    float: left;
+    width: 136px;
+    height: 136px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    border-left: solid 1px #eee;
+}
+.Navigation_Middle .Nav_href a span {
+    font-size: 20px;
+    padding-top: 43px;
+    display: block;
+}
+.Selection_Conditions {
+    width: 100%;
+    background: url(../img/content/SC_bg.png) repeat-x left top;
+    padding-top: 1px;
+    position: relative;
+    z-index: 999;
+}
+.SC_Upp {
+    width: 1240px;
+    height: 79px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.SC_Upp p {
+    float: left;
+    height: 50px;
+    border: solid 1px #e4e4e4;
+    background-color: #fff;
+    padding-left: 45px;
+    margin-top: 15px;
+    position: relative;
+    display: inline;
+}
+.SC_Genre {
+    width: 1180px;
+}
+.SC_Genre .Big_Son {
+    background-color: #6c9;
+}
+.Big_Son {
+    float: left;
+    width: 60px;
+    height: 45px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    padding-top: 7px;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+.Small_Son {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    color: #666;
+    border: solid 1px #fff;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 13px;
+    margin-left: 30px;
+    white-space: nowrap;
+}
+.SC_Optimal {
+    width: 320px;
+    margin-left: 17px;
+}
+.SC_Optimal .Big_Son {
+    background-color: #f96;
+}
+
+.SC_Low {
+    width: 1238px;
+    height: 80px;
+    border: solid 1px #e4e4e4;
+    background-color: #fbfbfb;
+    margin: 15px auto 0;
+    position: relative;
+}
+.SC_Screening {
+    height: 44px;
+    border-bottom: solid 1px #e4e4e4;
+    overflow: hidden;
+}
+.SC_Screening a {
+    float: left;
+    width: 120px;
+    height: 44px;
+    color: #666;
+    text-align: center;
+    line-height: 44px;
+    border-right: solid 1px #e4e4e4;
+}
+.SC_Screening a {
+    float: left;
+    width: 120px;
+    height: 44px;
+    color: #666;
+    text-align: center;
+    line-height: 44px;
+    border-right: solid 1px #e4e4e4;
+}
+.SC_Sorting {
+    height: 34px;
+    overflow: hidden;
+}
+.SC_Sorting .SelectAll {
+    background: url(../img/content/checkbox1.png) no-repeat left center;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-left: 18px;
+}
+.SC_Sorting a {
+    float: left;
+    height: 34px;
+    color: #333;
+    line-height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.SC_Sorting .DeleSele {
+    margin-left: 20px;
+}
+
+.SC_Sorting .NextPage {
+    float: right;
+    margin-right: 20px;
+}
+.SC_Sorting .PageDefault {
+    color: #999;
+    cursor: default;
+}
+.SC_Sorting .LastPage {
+    float: right;
+    margin-right: 10px;
+}
+.SC_Classify {
+    width: 1240px;
+    position: absolute;
+    left: -1px;
+    top: 43px;
+    display: none;
+}
+.Classify_Upp {
+    width: 120px;
+    height: 44px;
+    color: #666;
+    text-align: center;
+    line-height: 44px;
+    border: solid 1px #96cbe6;
+    border-bottom: 0;
+    background: url(../img/content/orderD.png) no-repeat 90px center #fafeff;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: -44px;
+}
+.Classify_Low {
+    height: 85px;
+    background-color: #fafeff;
+    border: solid 1px #96cbe6;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.Classify_Low p {
+    height: 40px;
+}
+.Classify_Low p select {
+    float: left;
+    width: 100px;
+    color: #666;
+}
+.Classify_Low p .spanB {
+    margin-left: 120px;
+}
+.Classify_Low p span {
+    float: left;
+    width: 97px;
+    color: #999;
+    line-height: 22px;
+    margin-left:39px;
+}
+.Classify_Low p input {
+    float: left;
+    width: 180px;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    border: solid 1px #abadb3;
+    border-radius: 3px;
+    margin-left:77px;
+}
+
+.Classify_Low p a {
+    float: left;
+    width: 72px;
+    height: 22px;
+    color: #999;
+    border: solid 1px #d7d7d7;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 22px;
+    background-color: #f8f8f8;
+    margin-left: 11px;
+}
+.Classify_Close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.Vote_Item {
+    width: 1240px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.Item_header {
+    width: 1440px;
+    height: 44px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.Item_header .s1 {
+    width: 440px;
+    border-bottom: solid 2px #a4a9ae;
+}
+.Item_header span {
+    float: left;
+    height: 42px;
+    border-right: solid 1px #eee;
+    color: #666;
+    text-align: center;
+    line-height: 42px;
+}
+.Item_header .s2 {
+    width: 100px;
+    border-bottom: solid 2px #fc6;
+}
+.Item_header .s3 {
+    width: 330px;
+    border-bottom: solid 2px #48cfad;
+}
+.Item_header .s4 {
+    width: 100px;
+    border-bottom: solid 2px #4fc1e9;
+}
+.Item_header .s5 {
+    width: 160px;
+    border-bottom: solid 2px #ac92ec;
+}
+.Item_header .s6 {
+    width: 110px;
+    border-bottom: solid 2px #ec87c0;
+}
+.Item_Emerge {
+    width: 1330px;
+}
+.Emerge_Nodata {
+    width: 1330px;
+    height: 300px;
+    font-size: 14px;
+    color: #333;
+    padding-top: 50px;
+    text-align: center;
+}
+div.Item_Paging {
+    width: 1240px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+div.Item_Paging a {
+    color: #333;
+    border-radius: 5px;
+    border: solid 1px #e4e4e4;
+    background-color: #fff;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+div.Item_Paging span.disabled {
+    color: #aeaeae;
+    border-radius: 5px;
+    border: solid 1px #e4e4e4;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #f2f2f2;
+}
+div.Item_Paging a {
+    color: #333;
+    border-radius: 5px;
+    border: solid 1px #e4e4e4;
+    background-color: #fff;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tr_2 {
+    border-top: solid 1px #eee;
+    cursor: pointer;
+}
+.Single_Guide1 {
+    width: 440px;
+    height: 80px;
+    border-right: solid 1px #eee;
+}
+.Guide1_row2 {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Guide1_row3 {
+    float: left;
+    height: 24px;
+    color: #333;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 21px;
+}
+.Guide1_row7 {
+    float: left;
+    width: 310px;
+    height: 24px;
+    color: #ccc;
+    line-height: 24px;
+    margin-left: 52px;
+    margin-top: 2px;
+}
+.Single_Guide2 {
+    width: 100px;
+    border-right: solid 1px #eee;
+}
+.Guide2_row1 {
+    color: #f60;
+    font-size: 18px;
+    text-align: center;
+    font-family: arial;
+}
+.Single_Guide3 {
+    width: 294px;
+    border-right: solid 1px #eee;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.Single_Guide4 {
+    width: 100px;
+    border-right: solid 1px #eee;
+}
+.Guide4_row1 {
+    color: #0982B5;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+}
+.Single_Guide5 {
+    width: 140px;
+    border-right: solid 1px #eee;
+    padding-left: 20px;
+}
+.Setup_Host {
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.Single_Guide6 {
+    width: 110px;
+    border-right: solid 1px #eee;
+}
+.Guide6_row2 {
+    color: #BBB;
+    text-align: center;
+    word-break: break-all;
+    display: block;
+}
+.Emerge_Single {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    margin-bottom: 4px;
+}
+
+#data_analysis{
+	display:none;
+	 position: absolute;
+    top: 20%;
+    left: 23%;
+    width: 692px;
+    height: 402px;
+    background: #eee;
+    z-index: 999;
+}
+.skip-data-type {
+    width: 100%;
+    height: 100px;
+    background: url(http://www.wanyan.com/webapp/css/viewpoint/img/Cross10.png) repeat-x left 1px;
+    overflow: hidden;
+}
+.skip-data-type a {
+    float: left;
+    width: 222px;
+    height: 24px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 46px;
+    border: solid 1px #ececec;
+    margin-right: 0;
+    position: relative;
+}
+a:focus, a:link, a:visited, a:after {
+    outline: 0;
+    text-decoration: none;
+}
+.CrossHover1s {
+    color: #fff;
+    background: url(http://www.wanyan.com/webapp/css/viewpoint/img/Cross4.png) no-repeat center 15px #3498db;
+    border: 1px solid #3498db!important;
+}
+.CrossHover2 {
+    color: #999;
+    background: url(http://www.wanyan.com/webapp/css/viewpoint/img/Cross2.png) no-repeat center 15px;
+}
+.CrossHover3 {
+    color: #999;
+    background: url(http://www.wanyan.com/webapp/css/viewpoint/img/Cross2.png) no-repeat center 15px;
+}.skip-data-type a img {
+    float: left;
+    width: 18px;
+    height: 8px;
+}
+.CrossHover1s img {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    display: inline;
+}
+.data_show li{
+	 height: 380px;
+    overflow: hidden;
+    text-align: left;
+    display: list-item;
+}
+.item-data-content {
+    position: absolute;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    border: 1px solid #eee;
+    top: 0;
+    left: 0;
+    width: 692px;
+}
+#close_data_analysis{
+	color: #f56f0d;
+    font-size: 22px;
+    right: -25px;
+    top: -17px;
+    position: absolute;
+    border: 1px solid #c4cac2;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+}
+.output{
+    background: #6c9;
+    text-align: center;
+    width: 101px;
+    color: #fff;
+    cursor:pointer;
+}
